@@ -7,11 +7,11 @@ public class InteractObjectUI : MonoBehaviour
     [SerializeField] private TextMeshPro DialogueText;
 
     private void OnEnable(){
-        GameEvents.OnInteractBtnClicked += ShowDialogueBox;
+        //GameEvents.OnInteractBtnClicked += ShowDialogueBox;
     }
 
     private void ShowDialogueBox(){
-        SetDialogueText("Working again!!!!");
+        SetDialogueText("TODO: Fetch from JSON");
         DialogueBox.SetActive(true);
     }
 
@@ -20,6 +20,6 @@ public class InteractObjectUI : MonoBehaviour
     }
 
     private void OnDisable(){
-        GameEvents.OnInteractBtnClicked -= ShowDialogueBox;
+        //GameEvents.OnInteractBtnClicked -= ShowDialogueBox;
     }
 }
