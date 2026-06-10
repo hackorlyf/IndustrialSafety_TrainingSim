@@ -32,7 +32,7 @@ public class ButtonSphereInteractable : MonoBehaviour, IInteractable {
         ToggleColor();
     }
 
-    public void Interact(Transform interactorTransform) {
+    public void Interact() {
         PushButton();
     }
 

@@ -9,7 +9,7 @@ public class PlayerInteract : MonoBehaviour {
         if (Input.GetKeyDown(KeyCode.E)) {
             IInteractable interactable = GetInteractableObject();
             if (interactable != null) {
-                interactable.Interact(transform);
+                interactable.Interact();
             }
         }
     }

@@ -16,7 +16,7 @@ public class DoorInteractable : MonoBehaviour, IInteractable {
         animator.SetBool("IsOpen", isOpen);
     }
 
-    public void Interact(Transform interactorTransform) {
+    public void Interact() {
         ToggleDoor();
     }
 
